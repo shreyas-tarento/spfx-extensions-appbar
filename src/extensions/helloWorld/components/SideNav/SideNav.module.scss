@@ -1,0 +1,30 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+.appBar {
+  width: 75px;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  .appBarButton {
+    width: 75px;
+    height: 75px;
+    padding: 8px;
+    :hover {
+      color: #000000;
+    }
+    .appBarIcon {
+      visibility: visible;
+      font-size: 24px;
+    }
+    .appBarItemLabel {
+      visibility: visible;
+      margin: 8px 0 0 0 ;
+    }
+  }
+  .isActive {
+    color: #000000;
+    box-shadow: inset 4px 0 #ff0000;
+  }
+}
